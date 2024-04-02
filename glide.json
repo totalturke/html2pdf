@@ -1,28 +1,21 @@
-[
-  {
-    "kind": "column",
-    "name": "Distribute Service Cost",
-    "description": "Distributes service costs among various cost centers and clients.",
-    "author": "Your Name <your-email@example.com>",
-    "params": [
-      {
-        "name": "service",
-        "displayName": "Service",
-        "type": "object"
-      },
-      {
-        "name": "costCenters",
-        "displayName": "Cost Centers",
-        "type": "array"
-      },
-      {
-        "name": "clients",
-        "displayName": "Clients",
-        "type": "array"
-      }
-    ],
-    "result": {
+{
+  "name": "Distribute Service Cost",
+  "description": "Distributes service costs among various cost centers and clients.",
+  "params": [
+    {
+      "name": "service",
+      "type": "object"
+    },
+    {
+      "name": "costCenters",
+      "type": "array"
+    },
+    {
+      "name": "clients",
       "type": "array"
     }
+  ],
+  "result": {
+    "type": "array"
   }
-]
+}
