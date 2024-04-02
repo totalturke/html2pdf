@@ -20,7 +20,6 @@
         "displayName": "Clients",
         "type": "array"
       }
-      // Add more parameters if your function needs them
     ],
     "result": {
       "type": "array"
